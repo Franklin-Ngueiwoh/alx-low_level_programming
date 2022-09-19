@@ -1,19 +1,19 @@
 # Low-level programming & Algorithm
 Module of Low-level programming and algorithm, carried out during Full Stack Software Engineering studies at ALX SE Program.
 
-# Technologies
+## Technologies
 * Scripts written in Bash
 * C files are compiled using gcc
 * C files are written according to the C90 standard
 * Tested on Ubuntu 20.04
 
-# Projects
+## Projects
 All of the following folders are projects done during the studies:
 
 |Project name |	Description |
 |-------------|-------------|
-|0x00-hello_world |It aims to learn about what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in C language|
-|0x01-variables_if_else_while |It aims to learn about arithmetic operators, relational operators, boolean operators, comments, declaring variables and loops in C language|
-|0x02-functions_nested_loops |It aims to learn about header files, functions, loops and nested loops in C language|
-|0x03-debugging |It aims to learn how to debug in C language|
->>>>>>> d078931f2c697d803f958ebc8cf5b8ab385cdfe4
+|`0x00-hello_world` |It aims to learn about what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in C language|
+|`0x01-variables_if_else_while` |It aims to learn about arithmetic operators, relational operators, boolean operators, comments, declaring variables and loops in C language|
+|`0x02-functions_nested_loops` |It aims to learn about header files, functions, loops and nested loops in C language|
+|`0x03-debugging` |It aims to learn how to debug in C language|
+|`0x04-more_functions_nested_loops` | It aims to learn about nested loops in C language |
