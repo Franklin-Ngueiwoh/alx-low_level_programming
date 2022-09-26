@@ -19,3 +19,4 @@ All of the following folders are projects done during the studies:
 |`0x04-more_functions_nested_loops` | It aims to learn about nested loops in C language|
 |`0x05-pointers_arrays_strings` | It aims to learn about pointers and arrays in C language|
 |`0x06-pointers_arrays_strings` |	It aims to learn about pointers and arrays in C language |
+|`0x07-pointers_arrays_strings` |	It aims to learn about pointers and arrays in C language |
