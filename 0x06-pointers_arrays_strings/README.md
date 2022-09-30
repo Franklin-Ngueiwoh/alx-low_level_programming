@@ -24,3 +24,4 @@ All of the following files are programs written in C:
 | `101-magic.c` | Changes the value of an index of an integer array |
 | `102-infinite_add.c` | Adds two numbers |
 | `103-print_buffer.c` | Prints a buffer |
+|`main.h` | Header file that contains all the prototypes of the used functions |
