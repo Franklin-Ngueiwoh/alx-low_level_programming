@@ -61,16 +61,16 @@ char *_initialize_array(char *ar, int lar)
  */
 int _checknum(char *argv[], int n)
 {
-	int num;
+	int ln;
 
-	for (ln = 0; argv[n][num]; ln++)
-		if (!isdigit(argv[n][num]))
+	for (ln = 0; argv[n][ln]; ln++)
+		if (!isdigit(argv[n][ln]))
 		{
 			printf("Error\n");
 			exit(98);
 		}
 
-	return (num);
+	return (ln);
 }
 
 /**
@@ -83,17 +83,17 @@ int _checknum(char *argv[], int n)
  */
 int main(int argc, char *argv[])
 {
-	int num1, mun2, numout, add, addl, i, j, k, ca;
+	int ln1, ln2, lnout, add, addl, i, j, k, ca;
 	char *nout;
 
 	if (argc != 3)
 		printf("Error\n"), exit(98);
-	num1 = _checknum(argv, 1), num2 = _checknum(argv, 2);
-	_is_zero(argv), numout = num1 + num2, nout = malloc(numout + 1);
+	ln1 = _checknum(argv, 1), ln2 = _checknum(argv, 2);
+	_is_zero(argv), lnout = ln1 + ln2, nout = malloc(lnout + 1);
 	if (nout == NULL)
 		printf("Error\n"), exit(98);
-	nout = _initialize_array(nout, numout);
-	k = numout - 1, i = num1 - 1, j = num2 - 1, ca = addl = 0;
+	nout = _initialize_array(nout, lnout);
+	k = lnout - 1, i = ln1 - 1, j = ln2 - 1, ca = addl = 0;
 	for (; k >= 0; k--, i--)
 	{
 		if (i < 0)
@@ -105,15 +105,15 @@ int main(int argc, char *argv[])
 					nout[k - 1] = (add / 10) + '0';
 				nout[k] = (add % 10) + '0';
 			}
-			i = num1 - 1, j--, addl = 0, ca++, k = numout - (1 + ca);
+			i = ln1 - 1, j--, addl = 0, ca++, k = lnout - (1 + ca);
 		}
 		if (j < 0)
 		{
 			if (nout[0] != '0')
 				break;
-			numout--;
-			free(nout), nout = malloc(numout + 1), nout = _initialize_array(nout, numout);
-			k = numout - 1, i = num1 - 1, j = num2 - 1, ca = addl = 0;
+			lnout--;
+			free(nout), nout = malloc(lnout + 1), nout = _initialize_array(nout, lnout);
+			k = lnout - 1, i = ln1 - 1, j = ln2 - 1, ca = addl = 0;
 		}
 		if (j >= 0)
 		{
