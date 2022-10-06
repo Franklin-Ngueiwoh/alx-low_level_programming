@@ -2,8 +2,8 @@
 Module of Low-level programming and algorithm, carried out during Full Stack Software Engineering studies at ALX SE Program.
 
 ## Technologies
-* Scripts written in Bash
-* C files are compiled using gcc
+* Scripts written in Bash 4.3.11(1)
+* C files are compiled using `gcc 4.8.4`
 * C files are written according to the C90 standard
 * Tested on Ubuntu 20.04
 
@@ -20,3 +20,8 @@ All of the following folders are projects done during the studies:
 |`0x05-pointers_arrays_strings` | It aims to learn about pointers and arrays in C language|
 |`0x06-pointers_arrays_strings` |	It aims to learn about pointers and arrays in C language |
 |`0x07-pointers_arrays_strings` |	It aims to learn about pointers and arrays in C language |
+|`0x08-recursion` |	It aims to learn about recursion and how to implement it in C language |
+|`0x09-static_libraries` |	It aims to learn about static libraries in C language |
+|`0x0A-argc_argv` |	It aims to learn about how to use arguments passed to a program in C language |
+|`0x0B-malloc_free` |	It aims to learn about automatic and dynamic allocation in C language |
+|`0x0C-more_malloc_free` |	It aims to learn about how to use `malloc`, `calloc`, `realloc` and `exit` functions in C language |
