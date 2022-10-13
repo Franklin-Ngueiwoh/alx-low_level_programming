@@ -15,3 +15,4 @@ All of the following files are programs written in C:
 |`1-print_numbers.c` |	Prints numbers |
 |`2-print_strings.c` |	Prints strings |
 |`3-print_all.c` |	Prints anything |
+|`variadic_functions.h` | Header file |
